@@ -1,7 +1,7 @@
 class Negociacao{
 
   constructor(data, quantidade, valor){
-    
+
     if(!data){
       throw new Error('data deve ser preenchida');
     }
@@ -32,4 +32,5 @@ class Negociacao{
   get volume(){
     return this._quantidade * this._valor;
   }
+  
 }
