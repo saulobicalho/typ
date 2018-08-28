@@ -7,7 +7,7 @@ class Negociacoes{
     this._negociacoes.push(negociacao);
   }
 
-  paraArray(){
+  paraArray():Negociacao[]{
 
     return [].concat(this._negociacoes);
   }
