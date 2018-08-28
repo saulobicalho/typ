@@ -1,8 +1,14 @@
 class NegociacoesView {
 
+  private _elemento: Element;
+
+  cosntructor(seletor: string){
+
+    this._elemento = document.querySelector(seletor);
+  }
   template(): string {
 
-    return '
+    return `
           <table class="table table-hover table-bordered">
             <thead>
              <tr>
@@ -19,6 +25,6 @@ class NegociacoesView {
             <tfoot>
             </tfoot>
           </table>
-    ';
+    `;
   }
 }
