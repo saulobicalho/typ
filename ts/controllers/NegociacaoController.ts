@@ -23,5 +23,7 @@ class NegociacaoController{
 
     this._negociacoes.adiciona(negociacao);
 
+    this._negociacoesView.update();
+
   }
 }
