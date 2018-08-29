@@ -8,9 +8,9 @@ class NegociacaoController{
   private _mensagemView = new MensagemView('#mensagemView');
 
   constructor(){
-    this._inputData = <HTMLInputElement>document.querySelector('#data');
-    this._inputQuantidade = <HTMLInputElement>document.querySelector('#quantidade');
-    this._inputValor = <HTMLInputElement>document.querySelector('#valor');
+    this._inputData = $('#data');
+    this._inputQuantidade =$('#quantidade');
+    this._inputValor = $('#valor');
     this._negociacoesView.update(this._negociacoes);
 
   }
