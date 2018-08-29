@@ -15,6 +15,7 @@ class NegociacaoController{
 
   }
   adiciona(event: Event){
+    
     event.preventDefault();
     const negociacao = new Negociacao(
       new Date(this._inputData.val().replace(/-/g,',')),
