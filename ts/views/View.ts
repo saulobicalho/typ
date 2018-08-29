@@ -1,6 +1,6 @@
 class View{
 
-  private _elemento: Element
+  protected _elemento: Element
 
   constructor(seletor: string){
 
