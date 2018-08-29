@@ -1,11 +1,5 @@
 class MensagemView{
 
-  private _elemento: Element
-
-  constructor(seletor: string){
-
-    this._elemento = document.querySelector(seletor);
-  }
 
   update(model: string){
 
