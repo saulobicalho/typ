@@ -1,7 +1,7 @@
 
 abstract class View<T> {
 
-  private _elemento: ;
+  private _elemento: JQuery;
 
   constructor(seletor: string){
 
