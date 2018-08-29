@@ -1,7 +1,7 @@
 declare var $:any;
 abstract class View<T> {
 
-  private _elemento: Element
+  private _elemento: any;
 
   constructor(seletor: string){
 
