@@ -2,13 +2,13 @@ class NegociacoesView {
 
   private _elemento: Element;
 
-  cosntructor(seletor: string){
+  constructor(seletor: string){
 
     this._elemento = document.querySelector(seletor);
   }
 
   update(model: Negociacoes): void {
-    this._elemento.innerHTML = this.template();
+    this._elemento.innerHTML = this.template(model);
   }
 
 
