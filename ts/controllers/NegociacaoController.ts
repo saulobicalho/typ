@@ -1,8 +1,8 @@
 class NegociacaoController{
 
-  private _inputData: HTMLInputElement;
-  private _inputQuantidade: HTMLInputElement;
-  private _inputValor: HTMLInputElement;
+  private _inputData: JQuery;
+  private _inputQuantidade: JQuery;
+  private _inputValor: JQuery;
   private _negociacoes = new Negociacoes();
   private _negociacoesView = new NegociacoesView('#negociacoesView');
   private _mensagemView = new MensagemView('#mensagemView');
