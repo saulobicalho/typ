@@ -1,4 +1,4 @@
-class View<T> {
+abstract class View<T> {
 
   private _elemento: Element
 
