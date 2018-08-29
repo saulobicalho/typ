@@ -1,4 +1,4 @@
-class View{
+class View<T> {
 
   protected _elemento: Element
 
@@ -7,12 +7,12 @@ class View{
     this._elemento = document.querySelector(seletor);
   }
 
-  update(model: string){
+  update(model: T){
 
     this._elemento.innerHTML = this.template(model);
   }
 
-  template(model:string){
+  template(model: T){
 
     throw new Error('Voce deve implementar o metodo template');
   }
